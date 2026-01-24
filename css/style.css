@@ -8,10 +8,32 @@ html {
 }
 :root{
   --primary-color: #10cab7;
+  --offcanvas-bg-color: rgb(41 65 76);
   --font-family: 'Work Sans', sans-serif;
 }
 body {
   background-color: #f0f0f0;
   font-family: var(--font-family);
 }
-
+/* Nav Section Start */
+.offcanvas-main{
+  background-color: var(--offcanvas-bg-color);
+}
+.offcanvas-main li a{
+  color: #fff;
+  font-size: 18px
+}
+.offcanvas-main .active-li{
+  color: var(--primary-color);
+  font-size: 18px
+}
+.offcanvas-main .title{
+  font-size: 15px;
+}
+.offcanvas-main ul:first-child{
+  margin-bottom: 20px;
+}
+.offcanvas-main ul:last-child{
+  margin-top: 20px;
+}
+/* Nav Section End */
