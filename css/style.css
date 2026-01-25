@@ -19,6 +19,12 @@ body {
 .navbar-container{
   width: 45.90rem;
 }
+.logo img{
+  width: 40px;
+}
+.menu img{
+  width: 25px;
+}
 .offcanvas-main{
   background-color: var(--offcanvas-bg-color);
 }
