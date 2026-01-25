@@ -49,3 +49,12 @@ body {
   margin-top: 20px;
 }
 /* Nav Section End */
+/* Hero Section Start */
+.hero{
+  height: 70vh;
+  background-color: lightgray;
+  background-image: url(../image/UpdateHro.png);
+  background-size: cover;
+  background-position: center;
+}
+/* Hero Section End */
