@@ -63,3 +63,20 @@ body {
   padding-top: 6.5rem;
 }
 /* Hero Section End */
+/* Work Section Start */
+.work .work-row div{
+  padding: 45px;
+}
+.work .work-row div img{
+  width: 45px;
+  margin-bottom: 20px;
+}
+.work .work-row div h2{
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.work .work-row div p{
+  font-size: 15px;
+}
+/* Work Section Start */
