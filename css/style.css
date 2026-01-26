@@ -57,4 +57,9 @@ body {
   background-size: cover;
   background-position: center;
 }
+.hero h1{
+  font-size: 3rem;
+  color: var(--primary-color);
+  padding-top: 6.5rem;
+}
 /* Hero Section End */
