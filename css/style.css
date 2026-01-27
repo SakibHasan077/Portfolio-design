@@ -80,3 +80,25 @@ body {
   font-size: 15px;
 }
 /* Work Section Start */
+/* Media Query */
+@media (max-width: 992px){
+  .hero h1{
+  font-size: 2.8rem;
+  }
+}
+@media (max-width: 720px){
+  .hero h1{
+  font-size: 2.5rem;
+  }
+  .hero p{
+    font-size: 15px;
+  }
+}
+@media (max-width: 576px){
+  .hero h1{
+  font-size: 2.2rem;
+  }
+  .hero p{
+    font-size: 14px;
+  }
+}
