@@ -80,6 +80,40 @@ body {
   font-size: 15px;
 }
 /* Work Section Start */
+/* Service Section Start */
+.service .service-header{
+  margin-bottom: 60px;
+}
+.service-sub-inner-row img{
+  width: 35px;
+}
+.service-sub-inner-row h3{
+  font-size: 25px;
+  font-weight: 600;
+}
+.service-sub-inner-row p{
+  font-size: 15px;
+  margin-top: 15px;
+}
+.service .service-main-row .column-two{
+  position: relative;
+  min-height: 430px;
+}
+.service .column-two .first-img{
+  height: 330px;
+  margin-top: 50px;
+  z-index:99999999;
+}
+.service .column-two .second-img{
+  width: 80%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100px;
+  z-index: -1;
+}
+/* Service Section End*/
 /* Media Query */
 @media (max-width: 992px){
   .hero h1{
