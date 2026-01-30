@@ -132,8 +132,48 @@ body {
 /* Portfolio Section End */
 /* About Section Start */
 .about .about-header{
-  margin-bottom: 60px;
+  margin-bottom: 90px;
 }
+.about-img {
+  position: relative;
+}
+.about-img-first{
+  height: 320px;
+  margin: 60px 0px 0 30px;
+}
+.about-img-second{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 420px;
+  z-index: -1;
+}
+.about-img-third{
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  height: 290px;
+  z-index: -1;
+}
+.about-content{
+  margin-top: 75px;
+}
+.about-content h3{
+  font-size: 28px;
+  margin-bottom: 20px;
+  line-height: 1.8;
+}
+.about-content .horizontal-line{
+  width: 400px;
+  height: 4px;
+  margin:  50px 0px 20px;
+  background-color: var(--primary-color);
+}
+.about-content p{
+  font-size: 16px;
+  line-height: 1.8;
+}
+
 /* About Section End */
 /* Media Query */
 @media (max-width: 1200px) {
