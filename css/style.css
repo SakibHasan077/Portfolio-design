@@ -130,6 +130,11 @@ body {
   margin-bottom: 10px;
 }
 /* Portfolio Section End */
+/* About Section Start */
+.about .about-header{
+  margin-bottom: 60px;
+}
+/* About Section End */
 /* Media Query */
 @media (max-width: 1200px) {
   .service .column-two .first-img{
