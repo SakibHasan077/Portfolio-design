@@ -197,12 +197,15 @@ body {
     height: 100%;
   }
 }
-@media (max-width: 720px){
+@media (max-width: 768px){
   .hero h1{
   font-size: 2.5rem;
   }
   .hero p{
     font-size: 15px;
+  }
+  .about-img-third{
+    right: 0px;
   }
 }
 @media (max-width: 576px){
@@ -211,5 +214,8 @@ body {
   }
   .hero p{
     font-size: 14px;
+  }
+  .about-img-third{
+    right: 90px;
   }
 }
