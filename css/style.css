@@ -175,6 +175,31 @@ body {
 }
 
 /* About Section End */
+/* Contact Section Start */
+.contact{
+  background-color: rgb(249 249 249);
+  min-height: 400px;
+}
+.contact h2{
+  margin-top: 150px;
+}
+.contact h3{
+  color: var(--offcanvas-bg-color);
+}
+.contact h4{
+  margin-left: 20px;
+  color: var(--primary-color);
+}
+.contact .social-icon span{
+  font-size: 15px;
+  margin: 0 15px 0 40px;
+  color: var(--offcanvas-bg-color);
+}
+.contact .social-icon img{
+  height: 19px;
+  margin-left: 15px;
+}
+/* Contact Section End */
 /* Media Query */
 @media (max-width: 1200px) {
   .service .column-two .first-img{
